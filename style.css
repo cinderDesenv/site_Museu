@@ -1,0 +1,409 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Gelasio', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #0d1e38;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0b1a2e;
+  padding: 2rem;
+  text-align: right;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+
+.menus {
+  margin: 20px 10px;
+}
+
+.menus a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  margin: 0 10px;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+.menus a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.bloco1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+
+  width: 90%;
+  min-height: 400px;
+  margin: 30px auto;
+  padding: 2.5rem;
+  border-radius: 12px;
+
+  background: #142f50;
+  color: #F5F5F5;
+}
+
+.bloco1 h2 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bloco1 p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.bloco1 a {
+  display: inline-block;
+  text-decoration: none;
+  background: #2b70f0;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.15rem;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+.bloco1 a:hover {
+  background-color: #1a50a7;
+  transform: translateY(-3px);
+}
+
+#museu {
+  max-width: 400px;
+  max-height: 450px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container2 {
+  width: 90%;
+  margin: 30px auto;
+  padding: 2.5rem;
+  border-radius: 12px;
+
+  background: #142f50;
+  color: #F5F5F5;
+  text-align: center;
+}
+
+.container2 h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  text-align: center;
+}
+
+.galeria {
+  position: static;
+  text-align: center;
+}
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.categorias a {
+  text-decoration: none !important;
+}
+
+.categoria-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.categoria-item img {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.categoria-item img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+.categoria-item span {
+  font-family: 'Gelasio', sans-serif;
+  font-size: 1.1rem;
+  color: #b0c4de;
+  margin-top: 1rem;
+}
+
+#primeira {
+  margin-left: 0;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+
+  background-color: #142f50;
+  color: #F5F5F5;
+  padding: 3rem;
+  margin: 2rem 60px;
+  border-radius: 12px;
+}
+
+.destaque {
+  flex: 1;
+}
+
+.destaque h2 {
+  font-size: 1.5rem;
+  color: #7a94b8;
+  margin-bottom: 0.5rem;
+}
+
+.destaque h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.destaque p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.destaque a {
+  display: inline-block;
+  text-decoration: none;
+  background: #2b70f0;
+  color: #F5F5F5;
+  padding: 1rem 2rem;
+  font-size: 1.15rem;
+  border-radius: 50px;
+  transition: all 0.4s ease;
+}
+
+.destaque a:hover {
+  background-color: #1a50a7;
+  transform: translateY(-3px);
+}
+
+.onda img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.segmento {
+  background:   #142f50;
+  padding: 60px 80px;
+  color: #fff;
+}
+
+#parc {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.grid-parceiros {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.parceiros img {
+  width: 180px;
+  height: auto;
+  filter: drop-shadow(2px 1px 1px black) contrast(1.2);
+  transition: transform 0.3s;
+}
+
+.parceiros img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  .grid-parceiros {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #parc {
+    text-align: center;
+  }
+}
+
+#motorola {
+  filter: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  background-color: #0b1a2e;
+  color: #F5F5F5;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.footer-contato,
+.footer-informacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.footer-contato h4,
+.footer-informacoes h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.footer-contato p {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.footer-informacoes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-informacoes ul li {
+  margin-bottom: 10px;
+}
+
+.footer-informacoes ul li a {
+  text-decoration: none;
+  color: #F5F5F5;
+  transition: color 0.3s ease;
+}
+
+.footer-informacoes ul li a:hover {
+  color: #007bff;
+}
+
+.lightbox {
+  display: flex;
+  /* Mantemos o display flex para o alinhamento */
+  opacity: 0;
+  /* Oculta o lightbox, ele estará transparente */
+  visibility: hidden;
+  /* Garante que ele não seja clicável quando invisível */
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  /* Transição de 0.5 segundos */
+
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Nova classe para exibir o lightbox com transição */
+.lightbox-show {
+  opacity: 1;
+  /* Torna o lightbox totalmente visível */
+  visibility: visible;
+  /* Torna-o clicável */
+}
+
+.lightbox-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  max-height: 90%;
+  background-color: #142f50;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#lightbox-img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+#lightbox-descricao {
+  color: #F5F5F5;
+  font-size: 1.2rem;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  color: #bbb;
+}
